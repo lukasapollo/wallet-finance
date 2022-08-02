@@ -13,3 +13,4 @@ body {
     font-family: "Nunito";
 }
 
+body a { text-decoration: none; }
