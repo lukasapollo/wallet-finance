@@ -1,0 +1,28 @@
+section.container-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 74vh;
+}
+
+.container-icons{
+    width: 218px;
+    height: 134px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.container-icons i{
+    font-size: 4rem;
+    color: #0000002d;
+}
+
+.container-icons p{
+    font-size: 0.9rem;
+    color: #00000034;
+    font-weight: 600;
+}

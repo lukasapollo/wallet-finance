@@ -1,0 +1,28 @@
+header {
+    background-color: #171717;
+    color: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .header{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+header .header h2{
+    font-size: 1em;
+}
+
+header .header p{
+    font-size:0.8em;
+    color: #636363;
+}
