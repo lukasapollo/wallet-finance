@@ -4,6 +4,7 @@ section.container-body{
     justify-content: center;
     align-items: center;
     height: 70vh;
+    gap: 2rem;
 }
 
 .container-icons{
@@ -25,4 +26,8 @@ section.container-body{
     font-size: 0.9rem;
     color: #00000034;
     font-weight: 600;
+}
+
+.disabled {
+    display: none;
 }
