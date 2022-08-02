@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     position: absolute;
-    background-color: #ffff;
+    background-color: var(--bg-body);
 
     display: flex;
     flex-direction: column;
