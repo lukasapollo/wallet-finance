@@ -63,3 +63,7 @@
     padding: 8px 20px;
     font-size: 24px;
 }
+
+.disabled-modal{
+    display: none;
+}
