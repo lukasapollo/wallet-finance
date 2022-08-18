@@ -35,3 +35,19 @@ main{
     font-size: 0.77rem;
     color: #858585;
 }
+
+.empty {
+    color: #3a3a3a;
+    font-size: 0.8rem;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.empty i{
+    color: #3a3a3a;
+    font-size: 1.8rem;
+}
