@@ -1,0 +1,37 @@
+main{
+    padding: 10px 25px;
+    font-family: "Nunito";
+}
+
+.card{
+    display: flex;
+    background-color: #1B1B1B;
+    padding: 10px;
+    border-left: 4.5px solid #533303;
+    border-radius: 4px;
+}
+
+.texts-card {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.card .cx-arrow{
+    color: #BBBBBB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13%;
+    font-size: 1.5rem;
+}
+
+.texts-card h5{
+    font-weight: 500;
+}
+.texts-card p{
+    font-size: 0.77rem;
+    color: #858585;
+}

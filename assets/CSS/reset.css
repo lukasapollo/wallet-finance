@@ -5,12 +5,9 @@
 }
 
 :root {
-    --bg-body: #F5F5F5;
+    --bg-body: #171717;
 }
 
-body {
-    background-color: var(--bg-body);
-    font-family: "Nunito";
+body{
+    background-color: var(--bg-body)
 }
-
-body a { text-decoration: none; }
