@@ -126,3 +126,9 @@
 .container-inputs .submit input:hover{
     background-color: #272727;
 }
+
+@media (max-width: 500px) {
+    .cx-inputs-md input {
+        height: 50px;
+    }
+}
