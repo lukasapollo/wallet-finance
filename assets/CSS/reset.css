@@ -9,5 +9,10 @@
 }
 
 body{
-    background-color: var(--bg-body)
+    background-color: var(--bg-body);
+    font-family: "Nunito";
+}
+
+.body-finance{
+    background-color: #F5F5F5;
 }

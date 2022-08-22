@@ -1,0 +1,64 @@
+.main-list{
+    padding: 20px;
+}
+
+.listCards{
+    background-color: #DDDDDD;
+    border-radius: 3px;
+}
+
+.headerList{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    color: rgb(128, 128, 128);
+    padding: 20px;
+}
+
+.cx-card{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    color: rgb(72, 72, 72);
+    padding: 20px;
+    background-color: #EDEDF1;
+    align-items: center;
+}
+
+.current-card {
+    font-weight: 900;
+    font-size: 11px;
+}
+
+.description-card{
+    color: #6e7ec5;
+}
+
+.ctn-state{
+    background-color: #e2e2e2;
+    height: 17px;
+    width: 17px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.icon-card{
+    font-size: 17px;
+    cursor: pointer;
+    color: rgb(127, 126, 126);
+}
+
+.positive{
+    color: rgb(9, 161, 9);
+}
+
+.negative{
+    color: rgb(188, 3, 53);
+}

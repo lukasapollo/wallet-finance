@@ -1,0 +1,15 @@
+.header-finance {
+    background-color: #171717;
+    color: #fff;
+}
+
+.header-finance nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-finance h3{
+    border-bottom: 2px solid white;
+    width: 80px;
+}

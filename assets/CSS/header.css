@@ -31,6 +31,10 @@ header {
     background-repeat: no-repeat; */
 }
 
+.cx-btn-header button:hover{
+    border: dashed 3px rgb(11, 202, 46) ;
+}
+
 .cx-btn-header {
     border-bottom: 2px solid rgba(255, 255, 255, 0.097);
     padding-bottom: 30px;

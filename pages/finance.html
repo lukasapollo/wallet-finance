@@ -8,11 +8,108 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/CSS/all.css">
+    <link rel="stylesheet" href="../assets/CSS/all.css">
     <title>Wallet finance</title>
 </head>
 </head>
-<body>
-    
+<body class="body-finance">
+
+    <section class="modal-operation">
+        <div class="contentsModal">
+            <div>
+                <div class="ctn-headerModal"><h2>Nova Operação</h2><i class='bx bx-x'></i></div>
+                <div class="ctn-p-modal"><p>Defina se sua nova operação de positiva ou negativa.</p></div>
+
+                <div class="container-checkbox">
+                    <div class="check-1">
+                        <input class="ipt-checkbox" type="checkbox" name="" id="negative">
+                        <label for="negative">
+                            <i class='bx bxs-check-circle'></i>
+                        </label>
+                    </div>
+
+                    <div class="check-2">
+                        <input class="ipt-checkbox" type="checkbox" name="" id="positive">
+                        <label for="positive">
+                            <i class='bx bxs-check-circle'></i>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="container-inputs">
+                    <div class="cx-inputs-md">
+                        <label for="">VALOR DA OPERAÇÃO</label>
+                        <input type="number">
+                    </div>
+                    <div class="cx-inputs-md">
+                        <label for="">DESCRIÇÃO</label>
+                        <input type="text">
+                    </div>
+
+                    <div class="cx-inputs-md submit">
+                        <input type="submit" value="CRIAR">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="header-finance">
+        <nav>
+            <div>
+                <h3>Gerenciamento</h3>
+            </div>
+            <div>
+                <i class='bx bx-dots-vertical-rounded'></i>
+            </div>
+
+           
+        </nav>
+
+        <div class="container-cards">
+            <div class="card-values">
+                <div><h4>GANHOS</h4></div>
+                <div class="container-h2"><h2>500,00</h2></div>
+            </div>
+
+            <div class="card-values card-g">
+                <div><h4>GASTOS</h4></div>
+                <div class="container-h2"><h2>350,00</h2></div>
+            </div>
+        </div>
+
+        <div class="ctn-btnNewOperation">
+            <button>
+                <span>NEW OPERATION</span> <span class="icon-m">+</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-list">
+        <div class="listCards">
+            <div class="headerList">
+                <div>DATA</div>
+                <div>$</div>
+                <div>DESCRIÇÃO</div>
+                <div>-/+</div>
+                <div></div>
+            </div>
+
+            <div class="ctn-cards">
+                <!-- Card para rederização -->
+                <div class="cx-card">
+                    <div class="date-card">17/05</div>
+                    <div class="current-card">50,00</div>
+                    <div class="description-card">DEPÓSITO</div>
+                    <div class="stateTarget">
+                        <div class="ctn-state positive">+</div>
+                    </div>
+                    <div class="icon-card"><i class='bx bx-trash' ></i></div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </main>
 </body>
 </html>
